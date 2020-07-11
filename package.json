@@ -1,0 +1,34 @@
+{
+  "name": "pack-arduino",
+  "displayName": "Arduino Extension Pack",
+  "version": "0.1.0",
+  "description": "Collection of extensions for working with Arduino devices.",
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "arduino",
+    "devices",
+    "cpp",
+    "c++",
+    "snippets"
+  ],
+  "bugs": {
+    "url": "https://github.com/mpty-ltd/vscode-pack-arduino/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpty-ltd/vscode-pack-arduino/"
+  },
+  "license": "MIT",
+  "publisher": "mpty",
+  "extensionPack": [
+    "ronaldosena.arduino-snippets",
+    "platformio.platformio-ide",
+    "vsciot-vscode.vscode-arduino"
+  ],
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "icon": "images/icon.png"
+}
